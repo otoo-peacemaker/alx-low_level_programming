@@ -2,7 +2,7 @@
 
 /**
  *  * main - Entry point
- *   * lu stands for unsigned long
+ *   * lu stands for unsigned long.
  *    * Return: Always 0 (Success)
  *     */
 int main(void)
