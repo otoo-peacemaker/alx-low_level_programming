@@ -7,9 +7,8 @@
  *  on error, -1 is returned, and errno is set appropriately.
  */
 
-int _putchar(char c)
+int _putchar()
 {
-	putchar(c);
-	putchar('\n');
+	printf("_putchar \n");
 	return (0);
 }
