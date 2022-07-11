@@ -1,4 +1,4 @@
-#C programming for pointers, array and strings
+# C programming for pointers, array and strings
 
 ## General rules
 *  Allowed editors: vi, vim, emacs
