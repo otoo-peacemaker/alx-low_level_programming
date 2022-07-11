@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-
+#define LEN 4
 /**
  * main - check the code for alx students.
  *
