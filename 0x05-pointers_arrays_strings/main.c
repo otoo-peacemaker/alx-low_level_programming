@@ -89,10 +89,6 @@ int array[5];
   printf("%s", p);
 
 //testing for keygen: N is the Length of the password to be generated
-    int N = 10;
-  
-    // Function Call
-    randomPasswordGeneration(N);
 
 
   return (0);
