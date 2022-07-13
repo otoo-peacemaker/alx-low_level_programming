@@ -1,12 +1,3 @@
-#include "main.h"
-
-/**
-* cap_string - function that capitalizes all words of a strin
-* @ch: pointer to input string
-* Return: pointer to Capitalized string
-*/
-
-
 int check_seperators(char c);
 
 /**
