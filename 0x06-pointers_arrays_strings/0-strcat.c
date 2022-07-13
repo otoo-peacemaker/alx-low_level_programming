@@ -6,17 +6,17 @@
 * @src: character pointer variable
 * Return: pointer to the result sting dest
 */
-	char *_strcat(char *dest, char *src)
-	{
-		int i, j = 0;
 
-		for (i = 0;dest[i] != '\0'; i++);
+char *_strcat(char *dest, char *src)
+{
+	char *temp = dest;
 
-		while (src[j] != '\0'){
-		dest[i + j] = src[j];
-		j++;
-		
-		}
+	while (*dest)
+		dest++;
 
-		return (dest);
-	}
+	while (*src)
+		*dest++ = *src++;
+
+	*dest = '\0';
+	return (temp);
+}
