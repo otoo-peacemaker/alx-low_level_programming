@@ -1,4 +1,4 @@
-fndef _MAIN_
+#ifndef _MAIN_
 #define _MAIN_
 
 #include <sys/types.h>
